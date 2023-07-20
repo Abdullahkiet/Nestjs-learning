@@ -5,12 +5,12 @@ GET http://localhost:3000/messages
 ### Create a new message
 
 POST http://localhost:3000/messages
-content-type: application/application/json
+content-type: application/json
 
 {
-  "content": "Hello World"
+  "content": "Hello Abdullah!"
 }
 
 ### Get a particular message
 
-GET http://localhost:3000/messages/1
+GET http://localhost:3000/messages/569
