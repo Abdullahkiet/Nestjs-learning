@@ -3,6 +3,7 @@ import { MessagesRepository } from './dtos/messages.repository';
 
 @Injectable()
 export class MessagesService {
+  //using dependency injection
   constructor(public messagesRepo: MessagesRepository) {}
 
   findOne(id: string) {
