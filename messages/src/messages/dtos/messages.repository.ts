@@ -23,4 +23,11 @@ export class MessagesRepository {
     messages[id] = { id, content: content };
     await writeFile('messages.json', JSON.stringify(messages));
   }
+  //update a message
+  async update(id: string, content: string) {
+    const contents = await readFile('messages.json', 'utf8');
+    const messages = JSON.parse(contents);
+    messages[id] = { id, content: content };
+    await writeFile('messages.json', JSON.stringify(messages));
+  }
 }
