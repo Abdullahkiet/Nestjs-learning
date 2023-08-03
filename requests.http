@@ -26,7 +26,7 @@ content-type: application/json
 
 ### Find a particular user with a given ID
 
-GET http://localhost:3000/auth/2
+GET http://localhost:3000/auth/5
 
 
 ### find a particul user with a given email
@@ -35,7 +35,7 @@ GET http://localhost:3000/auth?email=abd1@gmail.com
 
 ### delete a particular user with a given ID
 
-DELETE http://localhost:3000/auth/2
+DELETE http://localhost:3000/auth/4
 
 ### Update a particular user with a given ID
 
@@ -45,5 +45,4 @@ content-type: application/json
 {
   "email": "aaa@gmail.com",
   "password": "123456"
-
 }
