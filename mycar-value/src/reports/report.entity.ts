@@ -1,6 +1,8 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
+
+// Compare this snippet from mycar-value/src/reports/reports.module.ts:
 export class Report {
   @PrimaryGeneratedColumn()
   id: number;
