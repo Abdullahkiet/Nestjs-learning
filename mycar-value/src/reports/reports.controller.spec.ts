@@ -4,6 +4,7 @@ import { ReportsController } from './reports.controller';
 describe('ReportsController', () => {
   let controller: ReportsController;
 
+  //check if the controller is defined
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [ReportsController],
